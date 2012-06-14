@@ -1,0 +1,99 @@
+* {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size:12px;
+}
+
+html, body {
+	width: 100%;
+	margin:0px;
+	background: #f0ede2 url('../img/bkg.jpg') 50% 50% no-repeat;
+}
+
+#border-top {
+	background: url('../img/bkg-top.png') 50% no-repeat;
+	margin-top:30px;
+	height:38px;
+}
+#border-btm {
+	background: url('../img/bkg-btm.png') 50% no-repeat;
+	margin-bottom:30px;
+	height:38px;
+}
+
+#wrapper {
+	text-align:center;
+	margin:auto;
+	background: url('../img/bkg-mid.png') 50% repeat-y;
+}
+
+#container {
+	width: 700px;
+	margin:auto;
+	text-align:left;
+}
+
+#content {
+	background:#fff;
+	padding:15px;
+	margin-top:50px;
+	padding-top:5px;
+	position:relative;
+	border: 2px solid #999999;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	
+	color:#e54132;
+	text-transform:uppercase;
+	
+	position:absolute;
+	top: -30px;
+	left: 0px;
+	display:inline;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p {
+	
+}
+
+a, a:visited {
+	color:#e54132;
+}
+
+a:hover {
+	color:#111111;
+}
+
+#nav {
+	margin-top:10px;
+	background:#e54132;
+	padding:2px 5px 5px;
+	text-align:center;
+}
+
+#nav ul, #nav ul li {
+	list-style:none;
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li a, #nav ul li a:visited {
+	font-size: 11px;
+	color: #f0ede2;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	margin-right:10px;
+}
+#nav ul li a:hover, #nav ul li a:active  {
+	color:#111111;
+	text-decoration:none;
+}
